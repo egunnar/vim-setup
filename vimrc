@@ -96,3 +96,4 @@ set shortmess=atI
 "let g:miniBufExplMapCTabSwitchBufs = 1 
 "let g:miniBufExplModSelTarget = 1
 "
+colorscheme chela_light
