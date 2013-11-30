@@ -1,5 +1,16 @@
-execute pathogen#infect()
+filetype off 
+"execute pathogen#infect()
+call pathogen#infect()
 call pathogen#helptags()
+" call pathogen#runtime_append_all_bundles()
+" call pathogen#incubate()
+"
+let g:python_highlight_all="true"
+" load indentation rules and plugins
+" according to the detected filetype.
+if has("autocmd")
+  filetype plugin indent on
+endif
 
 "vim is being slow this might fix it
 let loaded_matchparen = 1
@@ -34,11 +45,8 @@ set nospell
 set autowrite
 " Hide buffers when they are abandoned
 set hidden
-" load indentation rules and plugins
-" according to the detected filetype.
-if has("autocmd")
-  filetype plugin indent on
-endif
+
+
 " enable syntax highlighting only when the terminal supports colors
 if &t_Co > 1
    syntax enable
