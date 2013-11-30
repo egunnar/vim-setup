@@ -26,6 +26,7 @@ set incsearch
 "set mouse=a
 set nocompatible
 set nobackup
+set noswapfile
 set nowritebackup
 set showcmd
 set hls
