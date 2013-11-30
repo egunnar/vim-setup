@@ -1,4 +1,6 @@
 execute pathogen#infect()
+call pathogen#helptags()
+
 "vim is being slow this might fix it
 let loaded_matchparen = 1
 
