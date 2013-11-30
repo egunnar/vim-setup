@@ -1,16 +1,16 @@
 filetype off 
-"execute pathogen#infect()
 call pathogen#infect()
 call pathogen#helptags()
-" call pathogen#runtime_append_all_bundles()
-" call pathogen#incubate()
-"
+
+" for python_syntax file
 let g:python_highlight_all="true"
+
 " load indentation rules and plugins
 " according to the detected filetype.
 if has("autocmd")
   filetype plugin indent on
 endif
+
 
 "vim is being slow this might fix it
 let loaded_matchparen = 1
