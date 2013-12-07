@@ -98,6 +98,10 @@ set shortmess=atI
 "
 colorscheme chela_light
 
+nmap <leader>w :mksession! ~/session.vim<cr>
+nmap <leader>l :source ~/session.vim<cr>
+
+
 " ---------------------------------------
 " stuff for pymode
 " ---------------------------------------
