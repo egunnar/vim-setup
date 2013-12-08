@@ -163,6 +163,9 @@ let g:pymode_rope_goto_definition_bind = '<C-c>g'
 "Values are (`e`, `new`, `vnew`)                  'g:pymode_rope_goto_definiti on_cmd'
 let g:pymode_rope_goto_definition_cmd = 'new'
 
+nmap <leader>a <C-w><C-w>
+nmap <leader>c <C-w>c
+
 " ---------------------------------------
 " stuff for Taglist plugin
 " ---------------------------------------
