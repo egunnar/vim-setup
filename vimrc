@@ -125,7 +125,8 @@ vnoremap <F1> <ESC>
 " stuff for pymode
 " ---------------------------------------
 "Trim unused whitespaces on save
-let g:pymode_trim_whitespaces = 1
+" let g:pymode_trim_whitespaces = 1
+let g:pymode_trim_whitespaces = 0
 
 "Fast and usual python folding in Vim.
 "Enable pymode folding
