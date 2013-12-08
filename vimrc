@@ -23,7 +23,13 @@ nmap j gj
 nmap k gk
 
 set incsearch
-"set mouse=a
+
+" this lets me use the mouse but can screw up cutting and pasting
+" see
+" http://stackoverflow.com/questions/4608161/copy-text-out-of-vim-with-set-mouse-a-enabled
+" summary holding shift cutting and pasting can help
+set mouse=a
+
 set nocompatible
 set nobackup
 set noswapfile
