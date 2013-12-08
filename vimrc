@@ -1,4 +1,4 @@
-filetype off 
+filetype off
 call pathogen#infect()
 call pathogen#helptags()
 
@@ -69,8 +69,8 @@ let mapleader = ","
 " runtime macros/matchit.vim
 
 " imst default for project plugin. g makes F12 toggle the project plugin
-" ERASEME? 
-" let g:proj_flags="imstg"    
+" ERASEME?
+" let g:proj_flags="imstg"
 
 "The “Press ENTER or type command to continue” prompt is jarring and usually unnecessary. You can shorten command-line text and other info tokens with, e.g.:
 set shortmess=atI
@@ -78,22 +78,22 @@ set shortmess=atI
 
 " for alternative.vim. toggles between header/cpp file
 " TODO
-" map <Leader>a <esc>:A<cr> 
+" map <Leader>a <esc>:A<cr>
 
 " for omnicppcomplete
-" TODO 
+" TODO
 " map <C-F11> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
-" TODO 
+" TODO
 " for cscope (ex finding calls of function)
 " map <C-F10> :!cscope -Rbq . <CR>
 
 " TODO
 " map <Leader>w <C-w><C-w>
 " this stuff is for minibuffer.vim, if i don't like plugin, can erase
-"let g:miniBufExplMapWindowNavVim = 1 
-"let g:miniBufExplMapWindowNavArrows = 1 
-"let g:miniBufExplMapCTabSwitchBufs = 1 
+"let g:miniBufExplMapWindowNavVim = 1
+"let g:miniBufExplMapWindowNavArrows = 1
+"let g:miniBufExplMapCTabSwitchBufs = 1
 "let g:miniBufExplModSelTarget = 1
 "
 colorscheme chela_light
@@ -101,6 +101,19 @@ colorscheme chela_light
 nmap <leader>w :mksession! ~/session.vim<cr>
 nmap <leader>l :source ~/session.vim<cr>
 
+" for clearing highlighting after search. a lot easier than
+" searching on random garbage
+nnoremap <leader><space> :noh<cr>
+
+" fix Vim’s horribly broken default regex “handling” by automatically inserting
+" a \v before any string you search for. This turns off Vim’s crazy default
+" regex characters and makes searches use normal regexes.
+nnoremap / /\v
+vnoremap / /\v
+
+inoremap <F1> <ESC>
+nnoremap <F1> <ESC>
+vnoremap <F1> <ESC>
 
 " ---------------------------------------
 " stuff for pymode
@@ -134,7 +147,7 @@ let g:pymode_rope_regenerate_on_write = 1
 " By default you could typing <Ctrl-Space> for autocompletion. Will be
 " automatically selected first entry and you can press <Return> to insert in
 " your code. <C-X><C-O> and <C-P>/<C-N> works too
-" Turn on code completion support in the plugin 
+" Turn on code completion support in the plugin
 let g:pymode_rope_completion = 1
 " Turn on autocompletion when you typing a period
 let g:pymode_rope_complete_on_dot = 1
