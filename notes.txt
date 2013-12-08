@@ -11,3 +11,6 @@ for ctrlp:
 - <c-j> and <c-k> to move through results 
 
 ---------------------------------
+
+a line for tagslist
+http://www.thegeekstuff.com/2009/04/ctags-taglist-vi-vim-editor-as-sourece-code-browser/
