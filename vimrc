@@ -143,3 +143,11 @@ let g:pymode_rope_goto_definition_bind = '<C-c>g'
 "Values are (`e`, `new`, `vnew`)                  'g:pymode_rope_goto_definiti on_cmd'
 let g:pymode_rope_goto_definition_cmd = 'new'
 
+" ---------------------------------------
+" stuff for ctrlp
+" ---------------------------------------
+" default
+"let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:10,results:10'
+let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:10,results:10'
+" to start ctrp
+"let g:ctrlp_map = '<leader>p'
