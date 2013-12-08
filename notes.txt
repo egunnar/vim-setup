@@ -1,0 +1,13 @@
+---------------------------------
+general:
+nmap <leader>w :mksession! ~/session.vim<cr>
+nmap <leader>l :source ~/session.vim<cr>
+
+
+---------------------------------
+for ctrlp:
+- <ctrl-p> to start
+- Press <c-f> and <c-b> to cycle between modes.
+- <c-j> and <c-k> to move through results 
+
+---------------------------------
