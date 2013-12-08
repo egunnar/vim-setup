@@ -164,6 +164,12 @@ let g:pymode_rope_goto_definition_bind = '<C-c>g'
 let g:pymode_rope_goto_definition_cmd = 'new'
 
 " ---------------------------------------
+" stuff for Taglist plugin
+" ---------------------------------------
+
+nmap <leader>t :TlistOpen<cr>
+
+" ---------------------------------------
 " stuff for ctrlp
 " ---------------------------------------
 " default
