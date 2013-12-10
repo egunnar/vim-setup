@@ -19,8 +19,8 @@ set tabstop=4
 set shiftwidth=4
 
 " map j to gj and k to gk, so line navigation ignores line wrap
-nmap j gj
-nmap k gk
+nnoremap j gj
+nnoremap k gk
 
 set incsearch
 
@@ -84,18 +84,18 @@ set shortmess=atI
 
 " for alternative.vim. toggles between header/cpp file
 " TODO
-" map <Leader>a <esc>:A<cr>
+" noremap <Leader>a <esc>:A<cr>
 
 " for omnicppcomplete
 " TODO
-" map <C-F11> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+" noremap <C-F11> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 " TODO
 " for cscope (ex finding calls of function)
-" map <C-F10> :!cscope -Rbq . <CR>
+" noremap <C-F10> :!cscope -Rbq . <CR>
 
 " TODO
-" map <Leader>w <C-w><C-w>
+" noremap <Leader>w <C-w><C-w>
 " this stuff is for minibuffer.vim, if i don't like plugin, can erase
 "let g:miniBufExplMapWindowNavVim = 1
 "let g:miniBufExplMapWindowNavArrows = 1
@@ -104,8 +104,8 @@ set shortmess=atI
 "
 colorscheme chela_light
 
-nmap <leader>w :mksession! ~/session.vim<cr>
-nmap <leader>l :source ~/session.vim<cr>
+nnoremap <leader>w :mksession! ~/session.vim<cr>
+nnoremap <leader>l :source ~/session.vim<cr>
 
 " for clearing highlighting after search. a lot easier than
 " searching on random garbage
@@ -163,14 +163,14 @@ let g:pymode_rope_goto_definition_bind = '<C-c>g'
 "Values are (`e`, `new`, `vnew`)                  'g:pymode_rope_goto_definiti on_cmd'
 let g:pymode_rope_goto_definition_cmd = 'new'
 
-nmap <leader>a <C-w><C-w>
-nmap <leader>c <C-w>c
+nnoremap <leader>a <C-w><C-w>
+nnoremap <leader>c <C-w>c
 
 " ---------------------------------------
 " stuff for Taglist plugin
 " ---------------------------------------
 
-nmap <leader>t :TlistOpen<cr>
+nnoremap <leader>t :TlistOpen<cr>
 
 " ---------------------------------------
 " stuff for ctrlp
