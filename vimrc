@@ -28,7 +28,9 @@ set incsearch
 " see
 " http://stackoverflow.com/questions/4608161/copy-text-out-of-vim-with-set-mouse-a-enabled
 " summary holding shift cutting and pasting can help
-set mouse=a
+"set mouse=a
+" disable mouse
+set mouse=
 
 set nocompatible
 set nobackup
