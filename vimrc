@@ -166,6 +166,13 @@ let g:pymode_rope_goto_definition_cmd = 'new'
 nnoremap <leader>a <C-w><C-w>
 nnoremap <leader>c <C-w>c
 
+" some tips from learn vimscript the hard way
+" ------------------------------------------
+" edit my vimrc quickly
+:nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+" make it easy to import new vimrc setting easily
+:nnoremap <leader>sv :source $MYVIMRC<cr>
+
 " ---------------------------------------
 " stuff for Taglist plugin
 " ---------------------------------------
