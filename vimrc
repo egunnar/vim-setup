@@ -182,6 +182,11 @@ nnoremap <leader>c <C-w>c
 nnoremap <leader>t :TlistOpen<cr>
 
 " ---------------------------------------
+" stuff for tagbar plugin
+" ---------------------------------------
+nnoremap <leader>; :TagbarToggle<CR>
+
+" ---------------------------------------
 " stuff for ctrlp
 " ---------------------------------------
 " default
