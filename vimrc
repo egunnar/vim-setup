@@ -31,6 +31,8 @@ set incsearch
 "set mouse=a
 " disable mouse
 set mouse=
+nnoremap <leader>m :set mouse=a<cr>
+nnoremap <leader>n :set mouse=<cr>
 
 set nocompatible
 set nobackup
