@@ -167,15 +167,31 @@ let g:pymode_rope_goto_definition_bind = '<C-c>g'
 "Values are (`e`, `new`, `vnew`)                  'g:pymode_rope_goto_definiti on_cmd'
 let g:pymode_rope_goto_definition_cmd = 'new'
 
+" short cut for jumping windows
 nnoremap <leader>a <C-w><C-w>
+
+" short cut for closing current window
 nnoremap <leader>c <C-w>c
+
+" short cut for changing width of windows
+" the 'i' in the mapping is weird. so the cursor was also moving down
+" and k offsets it
+nnoremap <C-h> <C-w><k<cr>
+nnoremap <C-l> <C-w>>k<cr>
+
 
 " some tips from learn vimscript the hard way
 " ------------------------------------------
 " edit my vimrc quickly
-:nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 " make it easy to import new vimrc setting easily
-:nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" ---------------------------------------
+" stuff for Fugative plugin
+" ---------------------------------------
+
+nnoremap <leader>g :Gblame<cr>
 
 " ---------------------------------------
 " stuff for Taglist plugin
