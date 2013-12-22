@@ -21,4 +21,7 @@ ctags:
 ctags -R --languages=Python *
 gives only 5MB file at worstish
 
+not the --python-kinds=-i get of going to the import statement as a definition (which is annoying)
+ctags -R --python-kinds=-i --languages=Python *
+
 doing a full ctags can generate a 300MB file for some projects
