@@ -14,3 +14,14 @@ for ctrlp:
 
 a line for tagslist
 http://www.thegeekstuff.com/2009/04/ctags-taglist-vi-vim-editor-as-sourece-code-browser/
+
+
+----------------------------------
+ctags:
+ctags -R --languages=Python *
+gives only 5MB file at worstish
+
+not the --python-kinds=-i get of going to the import statement as a definition (which is annoying)
+ctags -R --python-kinds=-i --languages=Python *
+
+doing a full ctags can generate a 300MB file for some projects
