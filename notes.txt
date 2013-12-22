@@ -14,3 +14,11 @@ for ctrlp:
 
 a line for tagslist
 http://www.thegeekstuff.com/2009/04/ctags-taglist-vi-vim-editor-as-sourece-code-browser/
+
+
+----------------------------------
+ctags:
+ctags -R --languages=Python *
+gives only 5MB file at worstish
+
+doing a full ctags can generate a 300MB file for some projects
