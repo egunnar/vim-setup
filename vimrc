@@ -128,44 +128,48 @@ vnoremap <F1> <ESC>
 " ---------------------------------------
 " stuff for pymode
 " ---------------------------------------
+
+"  disable the entire plugin
+let g:pymode = 0
+
 "Trim unused whitespaces on save
 " let g:pymode_trim_whitespaces = 1
-let g:pymode_trim_whitespaces = 0
+" let g:pymode_trim_whitespaces = 0
 
 "Fast and usual python folding in Vim.
 "Enable pymode folding
-let g:pymode_folding = 0
+" let g:pymode_folding = 0
 
 "Turns on the documentation script
-let g:pymode_doc = 0
+" let g:pymode_doc = 0
 
 "Turn on code checking
-let g:pymode_lint = 0
+" let g:pymode_lint = 0
 
 " Check code on every save (if file has been modified)
-let g:pymode_lint_on_write = 0
+" let g:pymode_lint_on_write = 0
 
 " Check code when editting (onfly)
-let g:pymode_lint_on_fly = 0
+" let g:pymode_lint_on_fly = 0
 
 " Turn on the rope script
-let g:pymode_rope = 1
+" let g:pymode_rope = 0
 
 " Regenerate project cache on every save (if file has been modified)
-let g:pymode_rope_regenerate_on_write = 1
+" let g:pymode_rope_regenerate_on_write = 0
 
 " pymode-completion
 " By default you could typing <Ctrl-Space> for autocompletion. Will be
 " automatically selected first entry and you can press <Return> to insert in
 " your code. <C-X><C-O> and <C-P>/<C-N> works too
 " Turn on code completion support in the plugin
-let g:pymode_rope_completion = 1
+" let g:pymode_rope_completion = 1
 " Turn on autocompletion when you typing a period
-let g:pymode_rope_complete_on_dot = 1
-let g:pymode_rope_goto_definition_bind = '<C-c>g'
+" let g:pymode_rope_complete_on_dot = 1
+" let g:pymode_rope_goto_definition_bind = '<C-c>g'
 "Command for open window when definition has been finded
 "Values are (`e`, `new`, `vnew`)                  'g:pymode_rope_goto_definiti on_cmd'
-let g:pymode_rope_goto_definition_cmd = 'new'
+" let g:pymode_rope_goto_definition_cmd = 'new'
 
 " short cut for jumping windows
 nnoremap <leader>a <C-w><C-w>
