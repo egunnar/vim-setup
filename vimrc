@@ -115,12 +115,6 @@ nnoremap <leader>l :source ~/session.vim<cr>
 " searching on random garbage
 nnoremap <leader><space> :noh<cr>
 
-" fix Vim’s horribly broken default regex “handling” by automatically inserting
-" a \v before any string you search for. This turns off Vim’s crazy default
-" regex characters and makes searches use normal regexes.
-nnoremap / /\v
-vnoremap / /\v
-
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
