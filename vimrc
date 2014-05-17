@@ -2,10 +2,6 @@ filetype off
 call pathogen#infect()
 call pathogen#helptags()
 
-" experiment
-inoremap jk <Esc>
-noremap <Esc> <Nop>
-
 " for python_syntax file
 let g:python_highlight_all="true"
 
