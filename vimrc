@@ -112,8 +112,8 @@ set shortmess=atI
 "
 colorscheme chela_light
 
-nnoremap <leader>w :mksession! ~/session.vim<cr>
-nnoremap <leader>l :source ~/session.vim<cr>
+nnoremap <leader>w :mksession! session.vim<cr>
+nnoremap <leader>l :source session.vim<cr>
 
 " for clearing highlighting after search. a lot easier than
 " searching on random garbage
