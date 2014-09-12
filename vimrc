@@ -123,6 +123,9 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
+" the Mosh uses <C-^> so remap it
+noremap <leader>d <C-^>
+
 " ---------------------------------------
 " stuff for pymode
 " ---------------------------------------
@@ -206,6 +209,8 @@ nnoremap <leader>t :TlistOpen<cr>
 " ---------------------------------------
 nnoremap <leader>; :TagbarToggle<CR>
 
+
+
 " ---------------------------------------
 " stuff for ctrlp
 " ---------------------------------------
@@ -214,3 +219,6 @@ nnoremap <leader>; :TagbarToggle<CR>
 let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:10,results:10'
 " to start ctrp
 "let g:ctrlp_map = '<leader>p'
+"
+"
+
