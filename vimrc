@@ -4,6 +4,7 @@ call pathogen#helptags()
 
 " experiment
 " inoremap jk <Esc>
+inoremap jk <Esc>
 " noremap <Esc> <Nop>
 
 " for python_syntax file
@@ -223,4 +224,4 @@ let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:10,results:10'
 "let g:ctrlp_map = '<leader>p'
 "
 "
-
+set pastetoggle=<leader>p
