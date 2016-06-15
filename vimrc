@@ -184,8 +184,8 @@ nnoremap <leader>c <C-w>c
 " short cut for changing width of windows
 " the 'i' in the mapping is weird. so the cursor was also moving down
 " and k offsets it
-nnoremap <C-h> <C-w><k<cr>
-nnoremap <C-l> <C-w>>k<cr>
+nnoremap <C-i> <C-w><k<cr>
+nnoremap <C-o> <C-w>>k<cr>
 
 
 " some tips from learn vimscript the hard way
