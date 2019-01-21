@@ -225,3 +225,7 @@ let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:10,results:10'
 "
 "
 set pastetoggle=<leader>p
+
+" turn on and off with this :GitGutterToggle
+" recommended to change to 250 by git-gutter author
+set updatetime=250
