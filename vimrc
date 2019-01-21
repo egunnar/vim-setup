@@ -229,3 +229,12 @@ set pastetoggle=<leader>p
 " turn on and off with this :GitGutterToggle
 " recommended to change to 250 by git-gutter author
 set updatetime=250
+
+" note turn Ale on/off with :ALEToggle
+" only run Ale when saving a file, not continously, can be distracting
+let g:ale_lint_on_text_changed = 'never'
+" Also don't run it right when openning a file
+let g:ale_lint_on_enter = 0
+
+nmap <silent> <leader>an :ALENext<cr>
+nmap <silent> <leader>ap :ALEPrevious<cr>
