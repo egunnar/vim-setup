@@ -127,7 +127,7 @@ nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
 " the Mosh uses <C-^> so remap it
-noremap <leader>d <C-^>
+" noremap <leader>d <C-^>
 
 " ---------------------------------------
 " stuff for pymode
