@@ -230,6 +230,11 @@ set pastetoggle=<leader>p
 " recommended to change to 250 by git-gutter author
 set updatetime=250
 
+" this jump to the next hunk in git gutter
+" [c would to be jump the other way
+nmap <silent> <leader>k ]c<cr>
+nmap <silent> <leader>d [c<cr>
+
 " note turn Ale on/off with :ALEToggle
 " only run Ale when saving a file, not continously, can be distracting
 let g:ale_lint_on_text_changed = 'never'
