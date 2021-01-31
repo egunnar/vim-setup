@@ -15,6 +15,7 @@ let g:python_highlight_all="true"
 if has("autocmd")
   filetype plugin indent on
 endif
+au BufRead,BufNewFile Jenkinsfile set filetype=groovy
 
 " turn off ex mode
 nnoremap Q <Nop>
