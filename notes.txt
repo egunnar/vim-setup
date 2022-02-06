@@ -1,3 +1,13 @@
+Installing plugins reminder:
+
+I use pathogen. Clone repo like:
+git clone https://github.com/mtdl9/vim-log-highlighting ~/.vim/bundle/vim-log-highlighting
+
+Go into the newly created folder and delete the .git folder. Then commit the plugin (assuming I like it). Commit it all.
+
+There's some sloppyness here. I lose the history of the plugin. At one point I vaguely remember using git submodules for this process (but something annoyed about submodules for this particular use case). I should commit the git repo url somewhere too so I know where the code comes from. This extreme easy of use out weighs losing the .git folder.
+
+TODO - research and find a better process.
 ---------------------------------
 general:
 nmap <leader>w :mksession! ~/session.vim<cr>
