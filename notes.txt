@@ -13,7 +13,13 @@ general:
 nmap <leader>w :mksession! ~/session.vim<cr>
 nmap <leader>l :source ~/session.vim<cr>
 
+---------------------------------------
+To run code formating do:
+:Autoformat
 
+There is basic functionality out of the box but I should install a external
+tool and have it in the path.
+see https://github.com/vim-autoformat/vim-autoformat
 ---------------------------------
 for ctrlp:
 - <ctrl-p> to start
