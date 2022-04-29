@@ -244,3 +244,5 @@ let g:ale_lint_on_enter = 0
 
 nmap <silent> <leader>an :ALENext<cr>
 nmap <silent> <leader>ap :ALEPrevious<cr>
+
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
